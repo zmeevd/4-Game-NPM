@@ -1,0 +1,31 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmeevd/GAME-NPM.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "zmeevd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zmeevd/GAME-NPM/issues"
+  },
+  "homepage": "https://github.com/zmeevd/GAME-NPM#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9"
+  },
+  "dependencies": {
+    "core-js": "^3.36.0"
+  }
+}
